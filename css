@@ -1,0 +1,403 @@
+.no-margin {
+  margin: 0px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.topnav {
+  font-size: 17px;
+  font-color: #fff;
+  border-bottom: 1px rgba(192, 192, 192, 0.5);
+  background: #B0E0E6;
+  box-shadow: 0px 1px rgba(0, 0, 0 , 0.9);
+  margin-bottom: 0px;
+}
+
+.topnav ul.navbar-nav li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus {
+  
+  background: rgba(255, 255, 255, 1);
+}
+#logo {
+  text-shadow: #000 1px 1px 1px;
+  padding-left: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+.first-jumbo {
+  padding-top: 50px;  /*fixed navigation bar*/
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 855px;
+  width: 100%;
+  text-align: center;
+  background: url(http://epicbroniestime.com/wp-content/uploads/2013/10/huge-modern-office-interior-design-ideas-3_modern_office_design_ideas_1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+}
+
+.intro-message > h1 {
+  color: #B0E0E6;
+  text-shadow: -3px 3px 3px #000 ;
+  margin-top: -50px;
+  font-size: 5em;  
+}
+
+.intro-message > h3 {
+  font-size: 25px;
+  padding: 30px 0px 30px 0px;
+  color: #B0E0E6;
+}
+
+
+
+hr.intro-divider {
+  border: 1px outset #B0E0E6 ;
+}
+
+.btn {
+  display: inline-block;
+  color: #000;
+  border: 3px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,30);
+  box-shadow: 3px 5px 5px rgba(0,100,100,9);
+  letter-spacing: 2px;
+  transition: .2s;
+}
+
+.btn:hover {
+  color: #fff;
+  border: 2px outset rgba(0,0,0,.9);
+  background: #000;
+  transform: scale(1);
+  transition: .2s;
+  box-shadow: 3px 5px 5px rgba(0,0,0,.5);
+}
+
+ul.intro-social-buttons > li {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+}
+
+
+ul.intro-social-buttons > li:first-child {
+  padding-top: 40px;
+}
+
+ul.intro-social-buttons > li:last-child {
+  margin-bottom: 0px
+}
+
+@media(max-width: 767px) {
+    ul.intro-social-buttons > li {
+        display: block;
+    }
+  
+  ul.intro-social-buttons > li:last-child {
+        margin-bottom: 15%;
+    }
+}
+
+/* second page of content*/
+
+
+.second-jumbo {
+  margin-bottom: 0px;
+  padding-bottom: 10%;
+  background: url("https://farm1.staticflickr.com/104/259818085_195d6365ab_o.jpg") no-repeat center center fixed;
+  width: 100%;
+  background-size: cover; 
+  padding-top: 15%;
+  
+}
+
+.section-heading {
+  margin-top: 10%;
+  font-size: 3em;
+  color: #B0E0E6;
+  text-shadow: 2px 2px 2px black;
+  
+}
+
+p.lead {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: lightblue;
+  text-shadow: 2px 1px 2px black;
+}
+
+p.lead a {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+}
+p.lead a:hover {
+  color: gold;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  font-size: 25px;
+}
+.color-change {
+  font-size: 20px;
+  color: #FF00FF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*Start of Portfolio*/
+
+.third-jumbo {
+  background: url("https://images-na.ssl-images-amazon.com/images/I/71ls5T9U5XL.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.section-subheading {
+  color: white;
+  margin-bottom: 5%;
+  text-shadow: 2px 1px 2px black;
+}
+.portfolio-item {
+  overflow: hidden;
+  padding: 7px;
+  height: 320px;
+  width: 300px;
+  color: white;
+  margin: 0 0 15px;
+  right: 0;
+}
+
+#portfolio .portfolio-item {
+  float: none;
+  margin: 0 auto 1px auto;
+  border: 1px outset rgba(0, 255, 255, 1);
+  position: relative;
+  text-align: center;
+}
+
+
+#portfolio .portfolio-item img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
+
+#portfolio .portfolio-item:hover {
+  box-shadow: 1px 1px 1px black;
+  transition: .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  max-height: 300px;
+  margin: 0px auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0,0,0,.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+} 
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  color: #fff
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -40px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 10px;
+  margin: 5px;
+  text-shadow: 3px 1px 1px black;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: Arial;
+  font-style: italic;
+  color: #fff;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.col-md-4 {
+  overflow: hidden;
+  display: inline-block;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0%;
+  text-align: center;
+  box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.col-sm-6 {
+  overflow: hidden;
+  display: inline-block;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0%;
+  text-align: center;
+  box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+/* End of Portfolio
+
+/*Start of bookshelf*/
+
+.fifth-jumbo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5%;
+  background: url('http://www.cholaonline.com/wp-content/uploads/2015/09/interior-furniture-contemporary-white-wooden-bookshelves-wall-bookshelf-design-ideas.jpg') no-repeat center center fixed;
+  width: 100%;
+  background-size: cover;
+}
+.well {
+  background: rgba(0,0,0,0.8);
+  margin-top: 10%;
+  border: 2px solid white;
+}
+.section-heading {
+  margin: auto auto;
+  color: #00BEBE;
+}
+.book-item {
+  float: none;
+  display: inline-block;
+  overflow: hidden;
+  padding: 5px;
+  height: 600px;
+  width: 250px;
+  color: white;
+  border: 2px solid #B0E0E6;
+  height: 350px;
+}
+.book-item img {
+  height: 200px;
+  width: 170px;
+  margin: 0px auto;
+}
+.book-caption h2 {
+  font-size: 20px;
+  
+}
+.book-caption p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Start of Contact page*/
+
+.fourth-jumbo {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 700px;
+  width: 100%;
+  background: url("http://images.tanyabonakdargallery.com/www_tanyabonakdargallery_com/2011_Your_rainbow_panorama_Olafur_Eliasson_12_Ole_Hein_Ped3.jpg") no-repeat center center fixed ;
+  text-align: center;
+  background-size: cover;
+}
+
+.connect {
+  text-align: left;
+  margin-top: 15%;
+  color: #B0E0E6;
+  text-shadow: 2px 2px 1px black;
+}
+
+ul.connect-social-buttons {
+  float:left;
+  margin-top: 5%;
+}
+
+@media(min-width:767px) {
+  ul.connect-social-buttons {
+  float: right;
+  margin-top: 15%;
+  padding-right: 25%;
+  }
+}
+
+ul.connect-social-buttons > li {
+  margin-bottom: 15px;
+  display: block;
+}  /*End of contact page*/
+
+
+
+
+/* Start of site footer*/
+
+.site-footer {
+  background-color: #B0E0E6;
+  padding-top: 30px
+}
+
+.site-footer li:first-child {
+  padding-left: 5%;
+}
+
+.site-footer li:not(:first-child):before {
+  text-align: center;
+  content: "-";
+  padding: 0px 10px 0px 2px;
+  color: blue
+  
+}
+
+.site-footer a:hover {
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+
+#copyright {
+  border-top: 1px solid blue;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
