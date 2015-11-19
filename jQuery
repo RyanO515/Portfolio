@@ -1,0 +1,10 @@
+$(function(){
+    $('a[href*=#]:not([href=#])').click(function(){
+        if (this.hash.length > 0) {
+            $('body, html').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000);
+        }
+      return false;  
+    });
+});
